@@ -1,0 +1,16 @@
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\breederhub.Core.dll.config
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\breederhub.Core.dll
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\breederhub.Core.pdb
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Abp.dll
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Castle.Core.dll
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Castle.Facilities.Logging.dll
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Castle.Windsor.dll
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\System.Collections.Immutable.dll
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Abp.xml
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Castle.Core.xml
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Castle.Facilities.Logging.xml
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\Castle.Windsor.xml
+C:\Development\BreederHub.com\breederhub.Core\bin\Debug\System.Collections.Immutable.xml
+C:\Development\BreederHub.com\breederhub.Core\obj\Debug\breederhub.Core.csprojResolveAssemblyReference.cache
+C:\Development\BreederHub.com\breederhub.Core\obj\Debug\breederhub.Core.dll
+C:\Development\BreederHub.com\breederhub.Core\obj\Debug\breederhub.Core.pdb

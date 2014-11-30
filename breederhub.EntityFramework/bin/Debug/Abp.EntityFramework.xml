@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Abp.EntityFramework</name>
+    </assembly>
+    <members>
+        <member name="T:Abp.EntityFramework.AbpDbContext">
+            <summary>
+            Base class for all DbContext classes in the application.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor">
+            <summary>
+            Constructor.
+            Uses <see cref="P:Abp.Configuration.Startup.IAbpStartupConfiguration.DefaultNameOrConnectionString"/> as connection string.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor(System.String)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor(System.Data.Entity.Infrastructure.DbCompiledModel)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor(System.Data.Common.DbConnection,System.Boolean)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor(System.String,System.Data.Entity.Infrastructure.DbCompiledModel)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor(System.Data.Entity.Core.Objects.ObjectContext,System.Boolean)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="M:Abp.EntityFramework.AbpDbContext.#ctor(System.Data.Common.DbConnection,System.Data.Entity.Infrastructure.DbCompiledModel,System.Boolean)">
+            <summary>
+            Constructor.
+            </summary>
+        </member>
+        <member name="P:Abp.EntityFramework.AbpDbContext.AbpSession">
+            <summary>
+            Used to get current session values.
+            </summary>
+        </member>
+        <member name="T:Abp.EntityFramework.Dependency.EntityFrameworkConventionalRegisterer">
+            <summary>
+            Registers classes derived from AbpDbContext with configurations.
+            </summary>
+        </member>
+        <member name="T:Abp.EntityFramework.IDbContextProvider`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TDbContext"></typeparam>
+        </member>
+        <member name="T:Abp.EntityFramework.Uow.EfUnitOfWork">
+            <summary>
+            Implements Unit of work for NHibernate.
+            </summary>
+        </member>
+        <member name="F:Abp.EntityFramework.Uow.EfUnitOfWork._activeDbContexts">
+            <summary>
+            List of DbContexes actively used in this unit of work.
+            </summary>
+        </member>
+        <member name="F:Abp.EntityFramework.Uow.EfUnitOfWork._transaction">
+            <summary>
+            Reference to the currently running transcation.
+            </summary>
+        </member>
+        <member name="F:Abp.EntityFramework.Uow.EfUnitOfWork._disposed">
+            <summary>
+            Is this object disposed?
+            Used to prevent multiple dispose.
+            </summary>
+        </member>
+        <member name="T:Abp.EntityFramework.AbpEntityFrameworkModule">
+            <summary>
+            This module is used to implement "Data Access Layer" in EntityFramework.
+            </summary>
+        </member>
+    </members>
+</doc>

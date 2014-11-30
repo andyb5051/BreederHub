@@ -1,0 +1,777 @@
+DEBUG 2014-11-29 22:55:12,946 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 22:55:13,370 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,379 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,379 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 22:55:13,379 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,381 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,381 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 22:55:13,381 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,387 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,387 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 22:55:13,387 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,387 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,387 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 22:55:13,387 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,389 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,389 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 22:55:13,389 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 22:55:13,394 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 22:55:13,402 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 22:55:13,403 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,404 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,404 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 22:55:13,404 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,405 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,405 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 22:55:13,405 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,405 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 22:55:13,405 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 22:55:13,405 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 22:55:13,430 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 22:55:13,430 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 22:55:13,430 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 22:55:13,437 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 22:55:13,607 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 22:55:13,613 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 22:55:13,618 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,618 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 22:55:13,635 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 22:55:13,650 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,655 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,674 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,693 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,695 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,719 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,721 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,730 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,731 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,736 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,736 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 22:55:13,765 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 22:55:13,769 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 22:55:13,774 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-29 23:12:24,403 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 23:12:24,922 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,931 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,931 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 23:12:24,931 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,933 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,933 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 23:12:24,933 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,941 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,941 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 23:12:24,941 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,942 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,942 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 23:12:24,942 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,944 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,944 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 23:12:24,944 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 23:12:24,949 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:12:24,957 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 23:12:24,958 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,959 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,959 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 23:12:24,959 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,960 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,960 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 23:12:24,960 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:24,960 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:12:24,960 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 23:12:24,960 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:12:24,987 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:12:24,987 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:12:24,987 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:12:24,993 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:12:25,166 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:12:25,173 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 23:12:25,177 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,178 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 23:12:25,195 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:12:25,210 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:12:25,210 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,211 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,217 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:12:25,217 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:12:25,217 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,235 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,254 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,257 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,282 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,283 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,293 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,294 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,299 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,299 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:12:25,329 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 23:12:25,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:12:25,338 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-29 23:14:45,222 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 23:14:45,770 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,778 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,778 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 23:14:45,779 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,781 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,781 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 23:14:45,781 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,787 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,787 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 23:14:45,787 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,788 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,788 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 23:14:45,788 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,790 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,790 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 23:14:45,790 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 23:14:45,795 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:14:45,804 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 23:14:45,805 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,806 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,806 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 23:14:45,806 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,807 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,807 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 23:14:45,807 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:45,807 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:14:45,807 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 23:14:45,807 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:14:45,834 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:14:45,834 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:14:45,835 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:14:45,842 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:14:46,022 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:14:46,029 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 23:14:46,034 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,034 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 23:14:46,054 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:14:46,070 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:14:46,070 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,071 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,077 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:14:46,077 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:14:46,077 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,096 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,117 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,119 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,149 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,151 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,160 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,160 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,165 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,166 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:14:46,195 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 23:14:46,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:14:46,203 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-29 23:18:26,036 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 23:18:26,541 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,549 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,549 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 23:18:26,549 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,551 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,551 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 23:18:26,551 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,556 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,557 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 23:18:26,557 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,557 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,557 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 23:18:26,557 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,560 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,560 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 23:18:26,560 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 23:18:26,565 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:18:26,573 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 23:18:26,574 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,575 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,575 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 23:18:26,575 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,576 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,576 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 23:18:26,576 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,576 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:18:26,576 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 23:18:26,576 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:18:26,602 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:18:26,603 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:18:26,603 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:18:26,609 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:18:26,781 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:18:26,787 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 23:18:26,791 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,791 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 23:18:26,810 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:18:26,824 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:18:26,824 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,825 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,831 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:18:26,831 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:18:26,831 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,849 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,868 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,870 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,895 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,897 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,906 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,906 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,911 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,911 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:18:26,940 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 23:18:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:18:26,949 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-29 23:21:58,971 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 23:21:59,475 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,483 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,483 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 23:21:59,483 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,485 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,485 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 23:21:59,485 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,491 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,491 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 23:21:59,491 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,492 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,492 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 23:21:59,492 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,494 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,494 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 23:21:59,494 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 23:21:59,499 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:21:59,507 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 23:21:59,508 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,509 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,509 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 23:21:59,509 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,510 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,510 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 23:21:59,510 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,510 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:21:59,510 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 23:21:59,510 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:21:59,536 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:21:59,536 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:21:59,536 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:21:59,543 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:21:59,711 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:21:59,717 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 23:21:59,722 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,722 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 23:21:59,740 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:21:59,755 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:21:59,755 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,756 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,762 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:21:59,762 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:21:59,762 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,779 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,797 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,800 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,824 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,826 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,835 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,835 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,840 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,840 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:21:59,869 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 23:21:59,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:21:59,878 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-29 23:24:04,099 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 23:24:04,607 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,614 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,614 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 23:24:04,614 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,617 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,617 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 23:24:04,617 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,623 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,623 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 23:24:04,623 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,624 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,624 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 23:24:04,624 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,626 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,626 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 23:24:04,626 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 23:24:04,631 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:24:04,639 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 23:24:04,640 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,641 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,641 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 23:24:04,641 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,642 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,642 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 23:24:04,642 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,642 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:24:04,642 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 23:24:04,642 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:24:04,668 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:24:04,668 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:24:04,668 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:24:04,675 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:24:04,844 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:24:04,850 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 23:24:04,855 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,855 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 23:24:04,872 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:24:04,887 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:24:04,887 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:04,888 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,894 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:24:04,894 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:24:04,894 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,911 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,930 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,932 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,956 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,958 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,967 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,967 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,973 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:04,973 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:24:05,002 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 23:24:05,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:24:05,011 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-29 23:28:06,662 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-29 23:28:07,197 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,205 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,205 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-29 23:28:07,205 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,207 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,207 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-29 23:28:07,207 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,213 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,213 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-29 23:28:07,213 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,214 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,214 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-29 23:28:07,214 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,216 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,216 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-29 23:28:07,216 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-29 23:28:07,221 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:28:07,230 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-29 23:28:07,231 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,232 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,232 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-29 23:28:07,232 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,233 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,233 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-29 23:28:07,233 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,233 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-29 23:28:07,233 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-29 23:28:07,233 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:28:07,259 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:28:07,259 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:28:07,260 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-29 23:28:07,266 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:28:07,443 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-29 23:28:07,449 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-29 23:28:07,453 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,453 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-29 23:28:07,472 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:28:07,487 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:28:07,487 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,488 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,495 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:28:07,495 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-29 23:28:07,495 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,512 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,531 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,534 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,558 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,560 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,568 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,568 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,574 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,574 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-29 23:28:07,602 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-29 23:28:07,606 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,608 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-29 23:28:07,611 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-30 00:16:04,140 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-30 00:16:04,396 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,403 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,403 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-30 00:16:04,403 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,454 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,454 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-30 00:16:04,454 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,460 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,460 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-30 00:16:04,460 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,461 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,461 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-30 00:16:04,461 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,463 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,463 [1    ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-30 00:16:04,463 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-30 00:16:04,473 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:16:04,496 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:16:04,497 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,497 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,497 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-30 00:16:04,497 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,498 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,498 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-30 00:16:04,498 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,498 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,498 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-30 00:16:04,498 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,499 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,499 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-30 00:16:04,499 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:04,499 [1    ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:16:04,499 [1    ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-30 00:16:04,499 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:16:04,695 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:16:04,695 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:16:04,695 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:16:04,700 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:16:05,183 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:16:05,188 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-30 00:16:05,192 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,192 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-30 00:16:05,234 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:16:05,255 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:16:05,255 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,256 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,316 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:16:05,316 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:16:05,316 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,553 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,608 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,628 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,709 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,723 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,731 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,731 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,745 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,746 [1    ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:16:05,778 [1    ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-30 00:16:05,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:16:05,810 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-30 00:18:28,560 [20   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-30 00:18:28,842 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,851 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,851 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-30 00:18:28,851 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,854 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,854 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-30 00:18:28,854 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,857 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,857 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-30 00:18:28,857 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,857 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,857 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-30 00:18:28,857 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,859 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,859 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-30 00:18:28,859 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-30 00:18:28,863 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:18:28,871 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-30 00:18:28,872 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,873 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,873 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-30 00:18:28,873 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,874 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,874 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-30 00:18:28,874 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:28,874 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:18:28,874 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-30 00:18:28,874 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:18:28,900 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:18:28,900 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:18:28,901 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:18:28,907 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:18:29,048 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:18:29,054 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-30 00:18:29,058 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,058 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-30 00:18:29,074 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:18:29,088 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:18:29,088 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,088 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,094 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:18:29,094 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:18:29,094 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,100 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,119 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,121 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,143 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,144 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,151 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,152 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,156 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,156 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:18:29,177 [20   ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-30 00:18:29,187 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,194 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,194 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,194 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,194 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,195 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,195 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,195 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,195 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,195 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:18:29,201 [20   ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-30 00:21:45,854 [20   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-30 00:21:46,099 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,106 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,106 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-30 00:21:46,106 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,108 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,108 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-30 00:21:46,108 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,110 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,110 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-30 00:21:46,110 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,110 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,110 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-30 00:21:46,111 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,112 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,112 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-30 00:21:46,112 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-30 00:21:46,116 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:21:46,122 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:21:46,122 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-30 00:21:46,123 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,124 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,124 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-30 00:21:46,124 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,124 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:21:46,124 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-30 00:21:46,124 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:21:46,143 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:21:46,143 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:21:46,144 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:21:46,149 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:21:46,270 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:21:46,274 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-30 00:21:46,278 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,278 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-30 00:21:46,297 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:21:46,310 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:21:46,310 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,310 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,315 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:21:46,315 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:21:46,315 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,321 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,335 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,337 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,356 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,357 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,364 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,364 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,368 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,368 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:21:46,389 [20   ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-30 00:21:46,396 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,402 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,402 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,402 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,402 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,402 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,403 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,403 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,403 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,403 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:21:46,409 [20   ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2014-11-30 00:32:36,461 [20   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2014-11-30 00:32:36,797 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,804 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,804 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.AbpCoreModule
+DEBUG 2014-11-30 00:32:36,804 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,806 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,806 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.EntityFramework.AbpEntityFrameworkModule
+DEBUG 2014-11-30 00:32:36,806 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,808 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,808 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.WebApi.AbpWebApiModule
+DEBUG 2014-11-30 00:32:36,808 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,808 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,808 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.AbpWebModule
+DEBUG 2014-11-30 00:32:36,808 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,810 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,810 [20   ] Abp.Modules.DefaultModuleFinder          - - Abp.Web.Mvc.AbpWebMvcModule
+DEBUG 2014-11-30 00:32:36,810 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f
+DEBUG 2014-11-30 00:32:36,814 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:32:36,822 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: AutoMapper.Net4, Version=3.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubApplicationModule
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubCoreModule
+DEBUG 2014-11-30 00:32:36,823 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,824 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,824 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubDataModule
+DEBUG 2014-11-30 00:32:36,824 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,825 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,825 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.Web.breederhubWebModule
+DEBUG 2014-11-30 00:32:36,825 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:36,825 [20   ] Abp.Modules.DefaultModuleFinder          - Found modules:
+DEBUG 2014-11-30 00:32:36,825 [20   ] Abp.Modules.DefaultModuleFinder          - - breederhub.breederhubWebApiModule
+DEBUG 2014-11-30 00:32:36,825 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:32:36,847 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Facilities.Logging, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:32:36,847 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Services.Logging.Log4netIntegration, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:32:36,848 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Castle.Windsor, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc
+DEBUG 2014-11-30 00:32:36,853 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:32:36,975 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+DEBUG 2014-11-30 00:32:36,980 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821
+DEBUG 2014-11-30 00:32:36,982 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:36,983 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+DEBUG 2014-11-30 00:32:36,997 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Collections.Immutable, Version=1.0.34.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:32:37,009 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Diagnostics.Tracing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:32:37,009 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Linq.Dynamic, Version=1.0.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,010 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,015 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:32:37,015 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Runtime.InteropServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+DEBUG 2014-11-30 00:32:37,015 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,020 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,034 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,036 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,055 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,056 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,063 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,063 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,067 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,067 [20   ] Abp.Modules.DefaultModuleFinder          - Searching ABP modules in assembly: WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+DEBUG 2014-11-30 00:32:37,087 [20   ] Abp.Modules.DefaultModuleFinder          - Found 10 ABP modules in total.
+DEBUG 2014-11-30 00:32:37,095 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpCoreModule, Abp, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,101 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,101 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,101 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,102 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.4.3.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,102 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubApplicationModule, breederhub.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,102 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubCoreModule, breederhub.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,102 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubDataModule, breederhub.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,102 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.Web.breederhubWebModule, breederhub.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,102 [20   ] Abp.Modules.AbpModuleManager             - Loaded module: breederhub.breederhubWebApiModule, breederhub.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2014-11-30 00:32:37,108 [20   ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
